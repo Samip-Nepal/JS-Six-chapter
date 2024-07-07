@@ -19,3 +19,12 @@ let elements=document.querySelectorAll("p")
 console.dir(elements);
 let ele=document.querySelector("#Samip")
 console.dir(ele);
+console.log(element.tagName);
+let elementss=document.querySelector("#Samit")
+console.dir(elementss);
+console.log(elementss.innerText);
+console.log(elementss.innerHTML);
+console.log(ele.innerText="Abcd");//chaning the value of inner text.
+console.log(elementss.innerHTML="<i>Samit</i>");//Chaning the inner code.
+let id=document.querySelector("p")
+console.log(id.textContent);
