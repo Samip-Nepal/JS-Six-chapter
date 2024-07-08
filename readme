@@ -1,3 +1,7 @@
 Pratice qn
 1.Create a H2 heading elements with text "Hello Javascript"Append from "From Madan bahndari clz"to this text using Js.
 2.Create 3 div with common class name "box".Acess them and add some unique text to each of them.
+3.Create a new button element .Give it text "click me" background color of red and text color of white
+Insert the button as the first element inside the body tags.
+4.Create a <p> tag in html ,give it a class and some styling .Now create a new class in class and try to append this class to ht <P> element 
+Did you notice ,how we overwrite the class name when we add a new one.solve problem using class list

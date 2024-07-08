@@ -65,5 +65,15 @@ console.log(element);
 let pre=document.getElementById("box")
 box.before(element);*/
 //"box.after" to add at the start
-let pre=document.getElementById("p")
-p.remove();
+//let pre=document.getElementById("p")
+//p.remove();
+//Praice qn 3
+/*let element =document.createElement("button")
+element.innerText="Click me!";
+element.style.backgroundColor="red";
+element.style.color="white";
+document.querySelector("body").prepend(element);*/
+//pratice qn 4
+let element =document.querySelector("p")
+element.classList.add("newClass");
+

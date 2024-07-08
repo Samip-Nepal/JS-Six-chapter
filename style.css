@@ -1,7 +1,9 @@
-div{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-    font-size: large;
-    color: aliceblue;
+p{
+    font-size: 10px;
+    font-weight: 700;
+    font-style: italic;
+    color: blue;
+}
+.newClass{
+    background-color:red;
 }
