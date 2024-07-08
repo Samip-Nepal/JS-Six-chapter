@@ -49,7 +49,13 @@ let para=p.getAttribute("id")
 console.log(para);
 let paras=p.setAttribute("id","Class");*/
  
-let div =document.getElementById("box")
+/*let div =document.getElementById("box")
 console.log(div);
 div.style.backgroundColor="red";
-div.style.fontSize="20px";
+div.style.fontSize="20px";*/
+let element =document.createElement("button")
+element.innerText="Click me!";
+console.log(element);
+let pre=document.getElementById("box")
+box.append(element);
+//"box.prepend" to add at the start 
