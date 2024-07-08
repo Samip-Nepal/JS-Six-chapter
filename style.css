@@ -1,11 +1,7 @@
-*{
-    background-color: wheat;
-}
-
-h1{
-    color: aqua;
-    background-color: azure;
-}
-#id{
-    visibility: hidden;
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    font-size: large;
+    color: aliceblue;
 }

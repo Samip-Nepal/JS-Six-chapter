@@ -41,11 +41,15 @@ for(let i=0;i<10;i++)
 {
     console.log(document.innerText=`Value of ${i}`);
 }*/
-let div=document.getElementById("box");
+/*let div=document.getElementById("box");
 console.log(div);
 let id =div.getAttribute("id");
 console.log(id);
 let para=p.getAttribute("id")
 console.log(para);
-let paras=p.setAttribute("id","Class");
-
+let paras=p.setAttribute("id","Class");*/
+ 
+let div =document.getElementById("box")
+console.log(div);
+div.style.backgroundColor="red";
+div.style.fontSize="20px";
