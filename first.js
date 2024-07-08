@@ -53,9 +53,15 @@ let paras=p.setAttribute("id","Class");*/
 console.log(div);
 div.style.backgroundColor="red";
 div.style.fontSize="20px";*/
+/*let element =document.createElement("button")
+element.innerText="Click me!";
+console.log(element);
+let pre=document.getElementById("box")
+box.append(element);*/
+//"box.prepend" to add at the start 
 let element =document.createElement("button")
 element.innerText="Click me!";
 console.log(element);
 let pre=document.getElementById("box")
-box.append(element);
-//"box.prepend" to add at the start 
+box.before(element);
+//"box.after" to add at the start
