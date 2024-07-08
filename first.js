@@ -59,9 +59,11 @@ console.log(element);
 let pre=document.getElementById("box")
 box.append(element);*/
 //"box.prepend" to add at the start 
-let element =document.createElement("button")
+/*let element =document.createElement("button")
 element.innerText="Click me!";
 console.log(element);
 let pre=document.getElementById("box")
-box.before(element);
+box.before(element);*/
 //"box.after" to add at the start
+let pre=document.getElementById("p")
+p.remove();
