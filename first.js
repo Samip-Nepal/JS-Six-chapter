@@ -33,11 +33,19 @@ console.log(id.textContent);*/
 console.log(pratice.innerText);
 pratice.innerText=pratice.innerText+"  From Madan bhandari clz";*/
 //Pratice qn 2
-let divs=document.querySelectorAll(".box")
+/*let divs=document.querySelectorAll(".box")
 console.log(divs[0]);
 console.log(divs[1]);
 console.log(divs[2]);
 for(let i=0;i<10;i++)
 {
     console.log(document.innerText=`Value of ${i}`);
-}
+}*/
+let div=document.getElementById("box");
+console.log(div);
+let id =div.getAttribute("id");
+console.log(id);
+let para=p.getAttribute("id")
+console.log(para);
+let paras=p.setAttribute("id","Class");
+
